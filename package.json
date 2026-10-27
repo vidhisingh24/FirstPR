@@ -1,0 +1,27 @@
+{
+  "name": "firstpr",
+  "private": true,
+  "version": "1.0.0",
+  "description": "FirstPR is an AI mentor that turns any GitHub issue into a step-by-step plan for your first pull request.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "node scripts/check.js"
+  },
+  "dependencies": {
+    "dompurify": "^3.4.17",
+    "marked": "^18.1.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "vite": "^8.3.5"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
